@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FunnyToturial</string>
+    <string name="pleaseLogin">請先登入</string>
+    <string name="back">返回</string>
+    <string name="enterDemoFragment">進入Fragment的DEMO</string>
+    <string name="area1">區域1</string>
+    <string name="area2">區域2</string>
+    <string name="area3">區域3</string>
+    <string name="enterGoogleMapFragment">前往Google地圖</string>
+    <string name="enterBanner">進入輪播</string>
+    <string name="enterPhotoAlbum">進入拍照相簿</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_demo_google_maps">Map</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#c4c7cc"
+        >
+        <TextView
+            android:text="@string/pleaseLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+        <TextView
+            android:id="@+id/mainBackButton"
+            android:text="@string/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/enterDemoFragment"
+        android:text="@string/enterDemoFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/enterGoogleMapFragment"
+        android:text="@string/enterGoogleMapFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/enterBanner"
+        android:text="@string/enterBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/enterPhotoAlbum"
+        android:text="@string/enterPhotoAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/enterPhotoTest"
+        android:text="enterPhotoTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+    android:id="@+id/enterPhotoTest01"
+    android:text="enterPhotoTest01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/enterPhotoTest02"
+        android:text="enterPhotoTest02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/enterPhotoTest03"
+        android:text="enterPhotoTest03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
